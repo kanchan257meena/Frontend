@@ -1,0 +1,29 @@
+.signal{
+    border: 2px solid black;
+    height: 120px;
+    width: 40px;
+}
+#red{
+    height: 30px;
+     border: 2px solid black;
+    width: 30px;
+    border-radius: 50%;
+    background-color: red;
+margin: 6px 0px 0px 5px;
+}
+#green{
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color:green;
+margin: 6px 0px 0px 5px;
+}
+#yellow{
+    height: 30px;
+    width: 30px;
+     border: 2px solid black;
+    border-radius: 50%;
+    background-color:yellow;
+margin: 6px 0px 0px 5px;
+}

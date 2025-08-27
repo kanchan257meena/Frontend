@@ -1,0 +1,40 @@
+#maintopic{
+    color: blue;
+}
+*{
+    text-align: center;
+}
+.heading{
+    font-family: Georgia;
+}
+
+p{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+div button{
+    background-color: plum;
+    color: azure;
+}
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-of-type(2n-1){
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+
+
+
+
+
+
+

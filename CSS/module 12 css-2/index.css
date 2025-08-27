@@ -1,0 +1,59 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+} 
+h1{
+    color: #1b74e4;
+}
+#searchbtn{
+    background: #000;
+    color: white;
+}
+.userbtn{
+    background-color: aqua;
+}
+
+/* descendent selector */
+p a {
+    color: plum;
+}
+
+/* attribute selector */
+
+input[type="text"]{
+    color: deeppink;
+}
+input[type="password"]{
+    color: deepskyblue;
+}
+
+/* pq */
+div[id="myid"]{
+    color: green;
+}
+
+/* pseudo class */
+
+span button:hover{
+    background-color: palevioletred;
+    color: white;
+    border: white;
+}
+
+p a:hover{
+    text-decoration: none;
+}
+
+button:active{  
+    color: black;
+}
+
+input[type="radio"]:checked +label{
+    color: rebeccapurple;
+    font: bold;
+}
+
+
+
+
+
+

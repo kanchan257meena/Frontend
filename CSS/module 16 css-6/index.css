@@ -1,0 +1,36 @@
+span{
+    color: rgb(192, 143, 19);
+}
+
+#pets{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+}
+
+.card{
+    height: 450 px;
+    width: 360px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+img{
+    /* height: 200px; */
+    /* width: 360px; */
+    width: 100%;
+    border-radius: 10px;
+    /* margin: 10px; */
+}
+
+@media(max-width:375px){
+    #pets{
+        flex-direction: column;
+    }
+}
+

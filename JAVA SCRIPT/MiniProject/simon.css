@@ -1,0 +1,40 @@
+#bigbox{
+    display: grid;
+    grid-template-columns: 120px 120px;
+    grid-row-gap: 18px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    /* margin: 6px 4px 6px 6px; */
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: lightcoral;
+}
+#box2{
+    background-color: lightgreen;
+}
+#box3{
+    background-color: lightblue;
+}
+#box4{
+    background-color: lightpink;
+}
+
+.flash{
+    background-color: white !important;
+}
+
+.userflash{
+    background-color: greenyellow  !important;
+}

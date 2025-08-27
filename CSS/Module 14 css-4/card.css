@@ -1,0 +1,35 @@
+span{
+    height: 220px;
+    width: 170px;
+    box-shadow: 2px 2px 5px black;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+span:hover{
+     /* height: 223px; */
+    /* width: 173px; */
+     box-shadow: 2px 2px 10px black;
+}
+.img1{
+   
+
+    background-image: url(../../images/song.jpeg);
+    background-size: cover;
+}
+div{
+    height: 120px;
+    width: 170px;
+     border-radius: 20px 20px 0px 0px;
+}
+
+.img2{
+   
+
+    background-image: url(../../images/download\ \(12\).jpeg);
+    background-size: cover;
+}
+.text{
+    padding:5px;
+}
